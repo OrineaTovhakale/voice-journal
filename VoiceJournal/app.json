@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "VoiceJournal",
+    "slug": "VoiceJournal",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.orinea.voicejournal",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "This app needs microphone access to record voice notes."
+      }
+    },
+    "android": {
+      "package": "com.orinea.voicejournal",
+      "permissions": ["android.permission.RECORD_AUDIO"]
+    },
+    "assetBundlePatterns": ["**/*"],
+    "extra": {
+      "eas": {
+        "projectId": "a38da1bd-0d23-48cb-b686-6b0a89abc166"
+      }
+    }
+  }
+}
